@@ -1,7 +1,10 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar'
 import Header from '../components/Header'
+
+import songs from "../Songs/songslist"
 const HomeScreen = () => {
+    console.log(songs.length);
     return (
         <div>
         <div className="main">
